@@ -1,26 +1,23 @@
-import About from 'components/About';
 import CaseStudy from 'components/CaseStudy';
 import Contact from 'components/Contact';
 import FooterPage from 'components/FooterPage';
-import Landing from 'components/Landing';
-import Services from 'components/Services';
+import Main from 'components/shared/Main';
 import NavBar from 'components/shared/NavBar';
 import Testimonials from 'components/Testimonials';
-import WhyUs from 'components/WhyUs';
 import React, { useState } from 'react';
-// import bg from '../assets/bg.jfif';
-import 'styles/main.scss';
+import aboutImage from 'assets/undraw_mobile_payments_vftl.svg';
 
-const Home = () => {
+const CaseStudyPage = () => {
   const [sideBar, setsideBar] = useState(false);
 
   return (
-    <div className="bg-none">
+    <div>
       <NavBar sideBar={sideBar} setSideBar={setsideBar} />
-      <Landing sideBar={sideBar} setSideBar={setsideBar} />
-      <About />
-      <Services />
-      <WhyUs />
+      <Main
+        title="Case study"
+        // desc="We help companies succeed"
+        HeaderImage={aboutImage}
+      />
       <CaseStudy />
       <Testimonials />
       <Contact />
@@ -29,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CaseStudyPage;

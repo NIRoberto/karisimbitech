@@ -3,7 +3,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Testimonials = () => {
   return (
-    <div className="h-screen p-16  bg-white">
+    <div className="p-2 md:p-16  bg-white">
       <div className="show">
         <span>Testimonials</span>
       </div>
@@ -11,10 +11,10 @@ const Testimonials = () => {
         <span>What cleint say about Us</span>
       </div>
       <div className="flex items-center justify-center">
-        <div className="mx-4 mt-16 cursor-pointer font-bold">
+        {/* <div className="m-0 md:mx-4 mt-16 cursor-pointer font-bold">
           <AiOutlineLeft />
-        </div>
-        <div className=" grid mt-16 grid-cols-2 py-8 gap-4 ">
+        </div> */}
+        <div className=" grid mt-16  grid-cols-1 md:grid-cols-2 py-8 gap-2 md:gap-4 ">
           <div className="cleint">
             <div>
               <p className="text-sm">
@@ -36,7 +36,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="cleint">
+          {/* <div className="cleint">
             <div>
               <div>
                 <p className="text-sm">
@@ -58,7 +58,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div></div>
-          </div>
+          </div> */}
           {/* <div className="cleint">
         <div></div>
         <div></div>
@@ -68,9 +68,9 @@ const Testimonials = () => {
         <div></div>
       </div> */}
         </div>
-        <div className="mx-4 mt-16 cursor-pointer font-bold">
+        {/* <div className="mx-4 mt-16 cursor-pointer font-bold">
           <AiOutlineRight />
-        </div>
+        </div> */}
       </div>
     </div>
   );

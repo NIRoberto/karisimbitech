@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import about from '../assets/about.jpg';
 
 const About = () => {
   return (
-    <div className="bg-white grid grid-cols-5  h-screen p-16">
-      <div className="col-span-3  w-4/5">
+    <div className="bg-white grid grid-cols-1 md:grid-cols-5  md:h-screen p-8 md:p-16">
+      <div className="col-span-3 w-11/12  md:w-4/5">
         <img src={about} alt="About" />
       </div>
 
-      <div className="col-span-2 ">
+      <div className="col-span-2 mt-4  md:mt-0">
         <div className="show">
           <span>About Us</span>
         </div>
@@ -26,9 +27,11 @@ const About = () => {
           </span>
         </div>
         <div className="text-white py-4">
-          <a className="btn" href="#about">
-            Explore more
-          </a>
+          <Link to="/about">
+            <a className="btn" href="#about">
+              Explore more
+            </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,3 +1,7 @@
+import AboutPage from 'pages/AboutPage';
+import CaseStudyPage from 'pages/CaseStudyPage';
+import ContactPage from 'pages/ContactPage';
+import Service from 'pages/Service';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -11,6 +15,18 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/services">
+          <Service />
+        </Route>
+        <Route path="/about">
+          <AboutPage />
+        </Route>
+        <Route path="/case-study">
+          <CaseStudyPage />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
         </Route>
         <Route exact path="*">
           <ErrorPage />

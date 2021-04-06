@@ -7,6 +7,7 @@ module.exports = {
         bg: '#15294C',
         sbg: '#f5fafd',
         mainColor: '#03a9f4',
+        sidebar: '#222B34',
       },
       transitionProperty: {
         position: 'position',
@@ -17,8 +18,11 @@ module.exports = {
       borderColor: {
         main: '#03a9f4',
       },
+      height: {
+        s: '60vh',
+      },
       width: {
-        '1/5': '10%',
+        '1/5': '25%',
       },
       gradientColorStops: (theme) => ({
         ...theme('colors'),

@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .show {
-  @apply border mb-4 border-main rounded-2xl text-center w-1/5 text-xs p-1 text-main;
+  @apply border mb-4 border-main rounded-2xl text-center w-2/6 md:w-1/5 text-xs p-1 text-main;
 }
 
 .desc {
@@ -34,14 +34,14 @@
 }
 
 .values {
-  @apply hover:bg-white items-center   hover:shadow-md rounded-md flex justify-between p-2;
+  @apply hover:bg-white items-center   hover:shadow-md rounded-md flex justify-between p-0.5 md:p-2;
 }
 
 .icon {
   @apply text-4xl text-main;
 }
 .icons {
-  @apply text-lg mr-1 mt-1;
+  @apply text-lg mr-1 mt-0.5;
 }
 
 .cleint {

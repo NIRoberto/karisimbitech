@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { BiPhone } from 'react-icons/bi';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { GrLocation } from 'react-icons/gr';
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const FooterPage = () => {
   return (
     <>
-      <footer className="bg-white h-80 grid grid-cols-3 gap-4 p-14">
+      <footer className="bg-white lg:h-80 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8 md:p-14">
         <div>
           <div className="flex">
             <h1>
@@ -19,12 +19,11 @@ const FooterPage = () => {
             </h1>
           </div>
           <div className="text-xs py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            perspiciatis, nostrum obcaecati dolorum aliquid harum aut tempora
-            quidem inventore libero nemo accusantium animi beatae, minima
-            maiores mollitia reiciendis totam nam!
+            KARISIMBI TECHNOLOGY SOLUTIONS LIMITED is a company registered in
+            Rwanda since June 2018. Our mission is to leapfrog service
+            experience in East Africa using the power of technology.
           </div>
-          <ul className="hidden py-4 mr-8 text-lg md:flex">
+          <ul className="py-4 mr-8 text-lg flex">
             <li>
               <a href="https://web.facebook.com/karisimbitech">
                 <FaFacebookSquare />
@@ -34,33 +33,30 @@ const FooterPage = () => {
               <a href="/">
                 <FaTwitterSquare />
               </a>
-            </li>
+            </li> */}
             <li className="ml-4">
-              <a href="/">
+              <a href="https://www.linkedin.com/company/ivuriro-software-services?trk=public_profile_topcard-current-company">
                 <AiFillLinkedin />
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
-        <div className="p-2">
+        <div className="md:p-2">
           <div className="text-lg ">
-            <h1>Quick links</h1>
+            <h1>Services</h1>
           </div>
           <ul>
             <li className="footerLink">
-              <Link to="/">Home</Link>
+              <Link to="/services">App development</Link>
             </li>
             <li className="footerLink">
-              <Link to="/about"> About</Link>
+              <Link to="/about"> </Link>
             </li>
             <li className="footerLink">
-              <Link to="/services">Service</Link>
+              <Link to="/services">MIS developement</Link>
             </li>
             <li className="footerLink">
-              <Link to="/case-study">Case study</Link>
-            </li>
-            <li className="footerLink">
-              <Link to="/contact">Contact</Link>
+              <Link to="/services">User experience design</Link>
             </li>
           </ul>
         </div>

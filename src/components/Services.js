@@ -2,20 +2,20 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div id="service" className="p-16 bg-sbg h-screen flex flex-col">
+    <div id="service" className="p-8 md:p-16 bg-sbg  flex flex-col">
       <div className="show">
         <span>Our services</span>
       </div>
       <div className="desc">
         <span>Provide Awesome Services</span>
       </div>
-      <div className="grid grid-cols-3 py-4 gap-4">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 py-4 gap-4">
         <div className="serviceCard">
           <div className="number">01</div>
           <div className="serviceTitle">User experience design</div>
           <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-            natus!
+            Focuses on having a deep understanding of users, what they need,
+            what they value, their abilities, and also their limitations.
           </div>
           <div>
             <ul className="services">

@@ -6,14 +6,14 @@ import { FaHardHat } from 'react-icons/fa';
 
 const WhyUs = () => {
   return (
-    <div className="bg-white p-16">
+    <div className="bg-white p-8 md:p-16">
       <div className="show">
         <span>Why choose Us</span>
       </div>
       <div className="desc">
         <span>We help companies succeed</span>
       </div>
-      <div className="grid grid-cols-5 gap-2 py-8 mt-8 border-t border-gray-300">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-2 py-8 mt-8 border-t border-gray-300">
         <div className="col-span-2 flex items-center justify-center">
           <div className="flex-col flex items-center">
             <span className="text-main text-4xl">200</span>
@@ -42,7 +42,7 @@ const WhyUs = () => {
         <h1>values</h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="values">
           <span className="icon">
             <BiTime />
@@ -71,7 +71,7 @@ const WhyUs = () => {
           <span className="icon">
             <SiTrustpilot />
           </span>
-          <div className="flex  flex-col justify-between px-4">
+          <div className="flex  flex-col  px-2 md:px-4">
             <span className="text-sm font-bold">Trust</span>
             <span className="text-xs">
               Entrust us with the security of your tools.
@@ -82,7 +82,7 @@ const WhyUs = () => {
           <span className="icon">
             <FaHardHat />
           </span>
-          <div className="flex  flex-col justify-between px-4">
+          <div className="flex  flex-col  px-4">
             <span className="text-sm font-bold">Courage</span>
             <span className="text-xs">
               Lorem ipsum dolor sit amet consectetur illo.
