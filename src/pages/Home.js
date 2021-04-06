@@ -1,7 +1,11 @@
 import About from 'components/About';
+import CaseStudy from 'components/CaseStudy';
+import Contact from 'components/Contact';
+import FooterPage from 'components/FooterPage';
 import Landing from 'components/Landing';
 import Services from 'components/Services';
 import NavBar from 'components/shared/NavBar';
+import Testimonials from 'components/Testimonials';
 import WhyUs from 'components/WhyUs';
 import React from 'react';
 // import bg from '../assets/bg.jfif';
@@ -15,6 +19,10 @@ const Home = () => {
       <About />
       <Services />
       <WhyUs />
+      <CaseStudy />
+      <Testimonials />
+      <Contact />
+      <FooterPage />
     </div>
   );
 };

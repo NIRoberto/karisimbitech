@@ -15,9 +15,7 @@ const NavBar = () => {
     }
   };
 
-  // useEffect(() => {
   window.addEventListener('scroll', changeBgcolor);
-  // }, []);
 
   return (
     <>
@@ -32,7 +30,7 @@ const NavBar = () => {
           <nav className="flex   w-full md:w-3/4 lg:w-4/6 items-center justify-between">
             <div className="flex">
               <h1>
-                <a className="text-4xl" href="/">
+                <a className=" text-2xl lg:text-4xl" href="/">
                   Karisimbi
                   <strong className="text-main">tech</strong>
                 </a>

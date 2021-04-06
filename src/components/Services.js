@@ -7,7 +7,7 @@ const Services = () => {
         <span>Our services</span>
       </div>
       <div className="desc">
-        <span>Provide Awesome Service</span>
+        <span>Provide Awesome Services</span>
       </div>
       <div className="grid grid-cols-3 py-4 gap-4">
         <div className="serviceCard">

@@ -32,3 +32,22 @@
 .btn {
   @apply bg-gradient-to-r from-primary hover:from-secondary to-secondary hover:to-primary rounded-2xl focus:to-primary focus:from-secondary px-8 py-4;
 }
+
+.values {
+  @apply hover:bg-white items-center   hover:shadow-md rounded-md flex justify-between p-2;
+}
+
+.icon {
+  @apply text-4xl text-main;
+}
+.icons {
+  @apply text-lg mr-1 mt-1;
+}
+
+.cleint {
+  @apply bg-white text-black rounded-md shadow-md p-4;
+}
+
+.footerLink {
+  @apply text-sm hover:text-main  my-2 transition-colors duration-500 ease-in-out;
+}

@@ -1,4 +1,8 @@
 import React from 'react';
+import { BiTime } from 'react-icons/bi';
+import { SiTrustpilot } from 'react-icons/si';
+import { FcFlashOn } from 'react-icons/fc';
+import { FaHardHat } from 'react-icons/fa';
 
 const WhyUs = () => {
   return (
@@ -31,6 +35,59 @@ const WhyUs = () => {
             As of August 2020, our technology has been used to treat tens of
             thousands of patients in Rwanda.
           </p>
+        </div>
+      </div>
+
+      <div className="show capitalize py-8">
+        <h1>values</h1>
+      </div>
+
+      <div className="grid grid-cols-4 gap-4">
+        <div className="values">
+          <span className="icon">
+            <BiTime />
+          </span>
+          <div className="flex  flex-col justify-between px-4">
+            <span className="text-sm font-bold"> Time management</span>
+            <span className="text-xs">
+              Working around the clock to deliver your work just in time is what
+              we do.
+            </span>
+          </div>
+        </div>
+        <div className="values">
+          <span className="icon">
+            <FcFlashOn />
+          </span>
+
+          <div className="flex  flex-col justify-between px-4">
+            <span className="text-sm font-bold"> Fast work delivery</span>
+            <span className="text-xs">
+              We move full speed to give you what you asked for.
+            </span>
+          </div>
+        </div>
+        <div className="values">
+          <span className="icon">
+            <SiTrustpilot />
+          </span>
+          <div className="flex  flex-col justify-between px-4">
+            <span className="text-sm font-bold">Trust</span>
+            <span className="text-xs">
+              Entrust us with the security of your tools.
+            </span>
+          </div>
+        </div>
+        <div className="values">
+          <span className="icon">
+            <FaHardHat />
+          </span>
+          <div className="flex  flex-col justify-between px-4">
+            <span className="text-sm font-bold">Courage</span>
+            <span className="text-xs">
+              Lorem ipsum dolor sit amet consectetur illo.
+            </span>
+          </div>
         </div>
       </div>
     </div>
