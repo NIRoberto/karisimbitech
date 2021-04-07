@@ -3,13 +3,13 @@ import bg from 'assets/bg.jfif';
 
 const CaseStudy = () => {
   return (
-    <div className="bg-sbg h-s p-8 md:p-16">
+    <div className="bg-sbg  p-8 md:p-16">
       <div className="show">
         <span>Case study</span>
       </div>
 
       <div className="desc">
-        <span>Same of Awesome case study</span>
+        <span>Same of Awesome case stuff</span>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 text-white ">
         <div

@@ -14,17 +14,21 @@ const WhyUs = () => {
         <span>We help companies succeed</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-5 gap-2 py-8 mt-8 border-t border-gray-300">
-        <div className="col-span-2 flex items-center justify-center">
+        <div className="col-span-2 flex items-center  justify-center">
           <div className="flex-col flex items-center">
             <span className="text-main text-4xl">200</span>
-            <span className="text-xs p-4">Successfully completed project</span>
+            <span className="text-xs p-4 text-text">
+              Successfully completed project
+            </span>
           </div>
           <div className="flex-col border-l border-gray-300 flex items-center">
             <span className="text-main text-4xl">23</span>
-            <span className="text-xs p-4">Highly specialised employees</span>
+            <span className="text-xs p-4 text-text">
+              Highly specialised employees
+            </span>
           </div>
         </div>
-        <div className="col-span-3 p-4">
+        <div className="col-span-3 p-4 text-text">
           <p>
             Our flagship solution is Ivuriro Technology, a SaaS electronic
             medical records system that eliminates paper usage in hospitals,
@@ -42,14 +46,17 @@ const WhyUs = () => {
         <h1>values</h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gr gap-4">
         <div className="values">
           <span className="icon">
             <BiTime />
           </span>
           <div className="flex  flex-col justify-between px-4">
-            <span className="text-sm font-bold"> Time management</span>
-            <span className="text-xs">
+            <span className="text-sm  text-Bold font-700">
+              {' '}
+              Time management
+            </span>
+            <span className="text-xs text-text">
               Working around the clock to deliver your work just in time is what
               we do.
             </span>
@@ -61,8 +68,11 @@ const WhyUs = () => {
           </span>
 
           <div className="flex  flex-col justify-between px-4">
-            <span className="text-sm font-bold"> Fast work delivery</span>
-            <span className="text-xs">
+            <span className="text-sm  text-Bold font-700">
+              {' '}
+              Fast work delivery
+            </span>
+            <span className="text-xs text-text">
               We move full speed to give you what you asked for.
             </span>
           </div>
@@ -72,8 +82,8 @@ const WhyUs = () => {
             <SiTrustpilot />
           </span>
           <div className="flex  flex-col  px-2 md:px-4">
-            <span className="text-sm font-bold">Trust</span>
-            <span className="text-xs">
+            <span className="text-sm  text-Bold font-700">Trust</span>
+            <span className="text-xs text-text">
               Entrust us with the security of your tools.
             </span>
           </div>
@@ -83,8 +93,8 @@ const WhyUs = () => {
             <FaHardHat />
           </span>
           <div className="flex  flex-col  px-4">
-            <span className="text-sm font-bold">Courage</span>
-            <span className="text-xs">
+            <span className="text-sm  text-Bold font-700">Courage</span>
+            <span className="text-xs text-text">
               Lorem ipsum dolor sit amet consectetur illo.
             </span>
           </div>

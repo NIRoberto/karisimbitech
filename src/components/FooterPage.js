@@ -42,10 +42,10 @@ const FooterPage = () => {
           </ul>
         </div>
         <div className="md:p-2">
-          <div className="text-lg ">
+          <div className="text-lg text-Bold ">
             <h1>Services</h1>
           </div>
-          <ul>
+          <ul className="text-text">
             <li className="footerLink">
               <Link to="/services">App development</Link>
             </li>
@@ -62,11 +62,11 @@ const FooterPage = () => {
         </div>
         {/* <div></div> */}
         <div>
-          <div className="text-lg text-black">
+          <div className="text-lg text-Bold ">
             <h1>Contact</h1>
           </div>
 
-          <ul>
+          <ul className="text-text">
             <li>
               <a className="flex my-4" href="/">
                 <span className="icons">

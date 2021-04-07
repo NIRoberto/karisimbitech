@@ -7,7 +7,7 @@ const Landing = ({ sideBar, setSideBar }) => {
   return (
     <>
       <div
-        className="landing bg-bg h-screen flex    md:flex-row justify-center  items-center pl-8 md:pl-16 text-white"
+        className="landing bg-bg  h-screen flex    md:flex-row justify-center  items-center pl-8 md:pl-16 text-white"
         onClick={() => setSideBar(!sideBar)}
       >
         <div>

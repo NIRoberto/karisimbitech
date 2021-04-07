@@ -3,7 +3,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Testimonials = () => {
   return (
-    <div className="p-2 md:p-16  bg-white">
+    <div className="p-14 md:p-16  bg-white">
       <div className="show">
         <span>Testimonials</span>
       </div>
@@ -17,7 +17,7 @@ const Testimonials = () => {
         <div className=" grid mt-16  grid-cols-1 md:grid-cols-2 py-8 gap-2 md:gap-4 ">
           <div className="cleint">
             <div>
-              <p className="text-sm">
+              <p className="text-sm text-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                 nulla cupiditate velit laboriosam reiciendis ipsam veniam
                 doloremque facilis! Corrupti corporis perferendis natus non
@@ -32,7 +32,7 @@ const Testimonials = () => {
                   alt="client profile"
                 />
               </span>
-              <span className="ml-2">Angel Angel</span>
+              <span className="ml-2 text-Bold font-700">Angel Angel</span>
             </div>
           </div>
 
