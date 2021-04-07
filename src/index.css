@@ -2,3 +2,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.show {
+  @apply border mb-4 border-main rounded-2xl text-center w-2/6 md:w-1/5 text-xs p-1 text-main;
+}
+
+.desc {
+  @apply text-4xl;
+}
+
+.serviceCard {
+  @apply bg-white shadow-md rounded-md hover:shadow-lg hover:bg-bg hover:text-white p-4  transition-colors duration-500 ease-in-out;
+}
+
+.serviceTitle {
+  @apply text-2xl py-4;
+}
+
+.number {
+  @apply text-main pt-4;
+}
+.text {
+  @apply pb-4 text-sm;
+}
+
+.services {
+  @apply grid grid-cols-1 gap-1 text-xs;
+}
+.btn {
+  @apply bg-gradient-to-r from-primary hover:from-secondary to-secondary hover:to-primary rounded-2xl focus:to-primary focus:from-secondary px-8 py-4;
+}
+
+.values {
+  @apply hover:bg-white items-center   hover:shadow-md rounded-md flex justify-between p-0.5 md:p-2;
+}
+
+.icon {
+  @apply text-4xl text-main;
+}
+.icons {
+  @apply text-lg mr-1 mt-0.5;
+}
+
+.cleint {
+  @apply bg-white text-black rounded-md shadow-md p-4;
+}
+
+.footerLink {
+  @apply text-sm hover:text-main  my-2 transition-colors duration-500 ease-in-out;
+}
