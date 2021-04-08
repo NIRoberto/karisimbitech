@@ -13,6 +13,8 @@ const ContactPage = () => {
     }, 3000);
   }, []);
 
+  document.title = 'Contact - Karisimbi technology solution';
+
   return (
     <>
       {loading ? (

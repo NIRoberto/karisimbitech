@@ -18,7 +18,6 @@ const NavBar = ({ sideBar, setSideBar }) => {
   };
 
   window.addEventListener('scroll', changeBgcolor);
-
   return (
     <>
       <header
