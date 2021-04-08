@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <div className="bg-bg md:h-60 text-white grid grid-cols-1 md:grid-cols-2 items-center justify-items-center">
+    <div className="bg-bg  text-white grid grid-cols-1 md:grid-cols-2 items-center justify-items-center">
       <div className="p-8">
-        <div class="desc">Have project in mind let talk</div>
+        <div class="text-4xl  text-white">Have project in mind let talk</div>
 
         <div className="text-sm text-gray-300 leading-5 py-4 ">
           If your organization uses a lot of papers while storing and managing

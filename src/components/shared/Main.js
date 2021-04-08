@@ -9,7 +9,7 @@ const Main = ({ title, desc, HeaderImage }) => {
     >
       <div className="bg-bg justify-items-center items-center  grid grid-cols-2 h-full top-0 bottom-0 right-0">
         <div className="flex flex-col">
-          <span className="text-5xl text-main">{title}</span>
+          <span className="text-5xl text-white">{title}</span>
           <span className="text-white  text-base py-4">{desc}</span>
         </div>
         <div>

@@ -49,22 +49,25 @@ const NavBar = ({ sideBar, setSideBar }) => {
               </div>
               <ol className=" flex flex-col md:hidden w-full text-gray-300  items-center justify-center  ">
                 <li className="active  hover:bg-gray-700 py-2 border border-gray-800  pl-8 w-full">
-                  <a href="/"> Home</a>
+                  <NavLink exact to="/">
+                    {' '}
+                    Home
+                  </NavLink>
                 </li>
                 <li className="  hover:bg-gray-700 pl-8 py-2 border border-gray-800  w-full ">
-                  <a href="/about">About</a>
+                  <NavLink to="/about">About</NavLink>
                 </li>
                 <li className="  hover:bg-gray-700 pl-8 py-2 border border-gray-800  w-full ">
-                  <a href="/service">Services</a>
+                  <NavLink to="/services">Services</NavLink>
                 </li>
                 <li className="  hover:bg-gray-700 pl-8 py-2 border border-gray-800  w-full ">
-                  <a href="/case-study">Case Studies</a>
+                  <NavLink to="/case-study">Case Studies</NavLink>
                 </li>
                 {/* <li className=" my-8 py-2 border border-gray-800 ">
-                  <a href="/blog">Blog</a>
+                  <NavLink to="/blog">Blog</NavLink>
                 </li> */}
                 <li className="   hover:bg-gray-700 pl-8 py-2 border border-gray-800  w-full">
-                  <a href="/contact">Contact</a>
+                  <NavLink to="/contact">Contact</NavLink>
                 </li>
               </ol>
             </div>

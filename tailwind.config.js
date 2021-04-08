@@ -14,6 +14,9 @@ module.exports = {
       },
       colors: {
         main: '#03a9f4',
+        text: '#0c2631',
+        Bold: '#07161d',
+        hover: '#f5fafd',
       },
       borderColor: {
         main: '#03a9f4',
@@ -23,6 +26,10 @@ module.exports = {
       },
       width: {
         '1/5': '25%',
+      },
+      fontWeight: {
+        300: '300',
+        700: '700',
       },
       gradientColorStops: (theme) => ({
         ...theme('colors'),
