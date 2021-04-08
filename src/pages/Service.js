@@ -14,6 +14,7 @@ const Service = () => {
       setLoading(false);
     }, 3000);
   }, []);
+  document.title = 'Services - Karisimbi technology solution';
 
   return (
     <>

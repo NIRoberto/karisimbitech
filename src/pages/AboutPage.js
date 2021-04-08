@@ -18,6 +18,7 @@ const AboutPage = () => {
     }, 3000);
   }, []);
 
+  document.title = 'About Us - Karisimbi technology solution';
   return (
     <>
       {loading ? (

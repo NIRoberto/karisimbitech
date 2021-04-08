@@ -23,6 +23,7 @@ const Home = () => {
       setLoading(false);
     }, 3000);
   }, []);
+  document.title = 'Home - Karisimbi technology solution';
 
   return (
     <>

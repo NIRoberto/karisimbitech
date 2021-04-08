@@ -16,6 +16,7 @@ const CaseStudyPage = () => {
       setLoading(false);
     }, 3000);
   }, []);
+  document.title = 'Case study - Karisimbi technology solution';
 
   return (
     <>
